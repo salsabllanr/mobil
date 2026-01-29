@@ -67,11 +67,7 @@ class HomePage extends StatelessWidget {
             // ===== Widget Interaksi =====
             ElevatedButton(
               onPressed: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(
-                    content: Text('Tombol ditekan!'),
-                  ),
-                );
+                print('Tombol tertekan');
               },
               child: Text('Klik Saya'),
             ),
